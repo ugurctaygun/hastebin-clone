@@ -1,0 +1,23 @@
+body {
+  background-color: #002b36;
+  font-family: monospace;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+pre {
+  margin: 0;
+}
+
+.line-numbers {
+  color: white;
+  text-align: end;
+}
+
+#code-display {
+  padding: 0 25px;
+}
