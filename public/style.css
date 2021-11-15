@@ -21,3 +21,59 @@ pre {
 #code-display {
   padding: 0 25px;
 }
+
+textarea {
+  background-color: transparent;
+  resize: none;
+  width: 100%;
+  padding: 0;
+  margin-left: 25px;
+  color: #7d7d7d;
+  min-height: calc(100vh - 25px);
+  border: none;
+  outline: none;
+}
+
+.buttons-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0.6;
+  transform: opacity 200ms ease;
+  background-color: #0081a2;
+  padding: 40px;
+}
+
+.buttons-wrapper:hover {
+  opacity: 1;
+}
+
+.logo {
+  text-align: center;
+  font-size: 46px;
+  text-decoration: none;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  font-size: 32px;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #002b36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons > * + * {
+  margin-left: 15px;
+}
